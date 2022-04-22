@@ -5,6 +5,7 @@ import math
 valorPi = math.pi
 import time
 
+# Ciclo para poder regresar al menu y elegir una opcion diferente
 while (True):
 # Entrada para elegir el problema:
 # Se le pide al usuario que ingrese un numero para determinar 
@@ -80,6 +81,7 @@ while (True):
     elif eleccion == "4":
         print("Gracias por usar nuestro programa, hasta luego.")
         break
+    #si se ingresa una opcion invalida del menu, se le indica el error al usuario
     else:
         print("Ha ingresado una opción invalida, por favor intente nuevamente")
         print(".........")
