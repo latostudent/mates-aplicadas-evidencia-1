@@ -31,7 +31,7 @@ while (True):
         print("El volumen de la esfera es: ", volumen)
         print(".........")
         print("cargando.........")
-        time.sleep(3) # espera en segundos
+        time.sleep(2) # espera en segundos
     # Problema 2: Obtener promedio de notas
     # Se ejecuta el problema 2 si se ingresa el número 2
     elif eleccion == "2":
@@ -51,7 +51,7 @@ while (True):
         print("Su promedio de notas este ciclo es:", promedio)
         print(".........")
         print("cargando.........")
-        time.sleep(3) # espera en segundos
+        time.sleep(2) # espera en segundos
     # Problema 3: Calcular salario y bonificación
     # Se ejecuta el problema 3 si se ingresa el número 3
     elif eleccion == "3":
@@ -77,7 +77,7 @@ while (True):
         print("salario neto", salarioneto)
         print(".........")
         print("cargando.........")
-        time.sleep(3) # espera en segundos
+        time.sleep(2) # espera en segundos
     elif eleccion == "4":
         print("Gracias por usar nuestro programa, hasta luego.")
         break
@@ -86,4 +86,4 @@ while (True):
         print("Ha ingresado una opción invalida, por favor intente nuevamente")
         print(".........")
         print("cargando.........")
-        time.sleep(3) # espera en segundos
+        time.sleep(2) # espera en segundos
